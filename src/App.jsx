@@ -27,8 +27,9 @@ function App() {
     if (noHoverCount === 0) return 'No'
     if (noHoverCount < 3) return 'Are you sure?'
     if (noHoverCount < 5) return 'Really?'
-    if (noHoverCount < 8) return 'Think again!'
-    if (noHoverCount < 12) return 'Please? 🥺'
+    if (noHoverCount < 8) return 'Do you want to say no!'
+    if (noHoverCount < 12) return 'I know you want to say yes! 😘'
+    if (noHoverCount < 24) return 'you can choose only yes 🥺'
     return 'No escape!'
   }
 
@@ -38,7 +39,7 @@ function App() {
         <div className="success-content">
           <h1 className="success-title">🎉 Yay! 🎉</h1>
           <p className="success-message">I knew you'd say yes! ❤️</p>
-          <p className="success-submessage">Can't wait to spend Valentine's Day with you! 💕</p>
+          <p className="success-submessage">You are so amazing My shiny star! 💕</p>
           <div className="hearts">
             <span>💖</span>
             <span>💗</span>
